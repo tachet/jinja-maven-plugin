@@ -1,0 +1,107 @@
+export FCFGEXECTYPES=(test real)
+
+declare TMPDEPLOYDIR=/usr/share/REC2/flash/deploy
+
+declare MONGODBIP=10.16.14.48
+declare ecmMONGODBIP=10.16.14.48
+declare hazelcastMONGODBIP=10.16.14.45
+declare MARIADBIP=10.16.14.49
+declare ecmMARIADBIP=10.16.14.49
+declare adminMARIADBIP=10.16.14.49
+declare ermMARIADBIP=10.16.14.49
+declare SOLRIP=10.16.14.47
+declare solrappSOLRIP=10.16.14.47
+declare solrappIP=10.16.14.47
+declare tomcatIP=10.16.14.46
+declare ecmcoreIP=10.16.14.46
+declare ecmuserIP=10.16.14.46
+declare adminIP=10.16.14.46
+declare ermIP=10.16.14.44
+declare asyncIP=10.16.14.44
+declare batchIP=10.16.14.44
+declare cacheIP=10.16.14.45
+
+declare ecmMONGODBNAME=recette2-ecm
+declare ecmMONGODBBACKUPNAME=recette2-ecm
+declare hazelcastMONGODBNAME=hazel-cast-cache
+declare hazelcastMONGODBCOLLECTIONSWCARD=CacheContentMap_*_ecm-recette2.*
+declare hazelcastMONGODBBACKUPNAME=recette2-hazelcast_backup
+declare ecmMARIADBNAME=ecm
+declare ecmMARIADBBACKUPNAME=recette2-ecm_backup
+declare adminMARIADBNAME=xfadmin
+declare adminMARIADBBACKUPNAME=recette2-xfadmin_backup
+declare ermMARIADBNAME=erm
+declare ermMARIADBBACKUPNAME=recette2-erm_backup
+declare MARIADBBACKUPDIR=/backup/mariadb/recette2
+declare MONGODBBACKUPDIR=/mongodb_backup/recette2
+declare SOLRCOREURL=http://10.16.14.47:8983/solr/flash
+declare SOLRBACKUPNAME=recette2-solr_backup
+declare SOLRLOCALBACKUPDIR=/drives/d/AZIZ/Work/ELS/FLASH/Deploiement/backup/REC2
+
+declare ecmcoreAPPDIR=/usr/share/REC2/flash/apache-tomcat-8.5.11/webapps/
+declare ecmuserAPPDIR=/usr/share/REC2/flash/apache-tomcat-8.5.11/webapps/
+declare adminAPPDIR=/usr/share/REC2/flash/apache-tomcat-8.5.11/webapps/
+declare ermAPPDIR=/usr/share/REC2/flash/erm/
+declare asyncAPPDIR=/usr/share/REC2/flash/async/
+declare batchAPPDIR=/usr/share/REC2/flash/batch-solr/
+declare cacheAPPDIR=/opt/cacheserver/
+
+declare tomcatBINDIR=/usr/share/REC2/flash/apache-tomcat-8.5.11/bin/
+declare ermBINDIR=/usr/share/REC2/flash/erm/
+declare asyncBINDIR=/usr/share/REC2/flash/async/
+
+declare tomcatCONFIGDIR=/usr/share/REC2/flash/conf/
+declare ecmcoreCONFIGDIR=/usr/share/REC2/flash/conf/
+declare ecmuserCONFIGDIR=/usr/share/REC2/flash/conf/
+declare adminCONFIGDIR=/usr/share/REC2/flash/conf/
+declare ermCONFIGDIR=/usr/share/REC2/flash/conf/
+declare asyncCONFIGDIR=/usr/share/REC2/flash/conf/
+declare batchCONFIGDIR=/usr/share/REC2/flash/conf/
+declare cacheCONFIGDIR=/opt/cacheserver/config/
+declare solrappCONFIGDIR=/usr/share/REC2/flash/solr/flashConfig/
+
+declare tomcatGREP=[/]REC2/flash/apache-tomcat
+declare ecmcoreGREP=[/]REC2/flash/apache
+declare ecmuserGREP=[/]REC2/flash/apache-tomcat
+declare adminGREP=[/]REC2/flash/apache-tomcat
+declare ermGREP=[/]REC2/flash/erm
+declare asyncGREP=[/]REC2/flash/async
+declare batchGREP=[/]REC2/flash/batch-solr
+declare cacheGREP=[c]acheserver
+declare solrappGREP=[/]REC2/flash/solr
+
+declare SOLRSTOPSCRIPT="/usr/share/REC2/flash/solr/solr-5.5.2/bin/solr stop -p 8983"
+declare solrappSTOPSCRIPT="/usr/share/REC2/flash/solr/solr-5.5.2/bin/solr stop -p 8983"
+declare ermSTOPSCRIPT=/usr/share/REC2/flash/erm/stop-erm.sh
+declare asyncSTOPSCRIPT=/usr/share/REC2/flash/async/stop-async.sh
+declare cacheSTOPSCRIPT=/opt/cacheserver/stopCacheServer.sh
+
+declare tomcatLOGSPATTERN='{/usr/share/REC2/flash/apache-tomcat-8.5.11/logs/*,/var/log/xmlfirst/recette2/{sie-ecm*,sie-xf-admin*}}'
+declare ecmcoreLOGSPATTERN='/var/log/xmlfirst/recette2/sie-ecm-core*'
+declare ecmuserLOGSPATTERN='/var/log/xmlfirst/recette2/sie-ecm-user*'
+declare adminLOGSPATTERN='/var/log/xmlfirst/recette2/sie-xf-admin*'
+declare ermLOGSPATTERN='{/usr/share/REC2/flash/erm/,/var/log/xmlfirst/recette2/*erm}*.log*'
+declare asyncLOGSPATTERN='{/usr/share/REC2/flash/async/,/var/log/xmlfirst/recette2/*async}*.log*'
+declare batchLOGSPATTERN='{/usr/share/REC2/flash/batch-solr/,/var/log/xmlfirst/recette2/*batch}*.log*'
+declare cacheLOGSPATTERN='/opt/cacheserver/logs/hazelcast-server.*.log'
+declare tomcatAPPPATTERN='/usr/share/REC2/flash/apache-tomcat-8.5.11/webapps/{ecm-,ROOT,xfadmin}*'
+declare ecmcoreAPPPATTERN='/usr/share/REC2/flash/apache-tomcat-8.5.11/webapps/ecm-core*'
+declare ecmuserAPPPATTERN='/usr/share/REC2/flash/apache-tomcat-8.5.11/webapps/ROOT*'
+declare adminAPPPATTERN='/usr/share/REC2/flash/apache-tomcat-8.5.11/webapps/xfadmin*'
+declare ermAPPPATTERN='/usr/share/REC2/flash/erm/*erm*.jar'
+declare asyncAPPPATTERN='/usr/share/REC2/flash/async/*async*.jar'
+declare batchAPPPATTERN='/usr/share/REC2/flash/batch-solr/*batch*.jar'
+declare cacheAPPPATTERN='/opt/cacheserver/cacheserver.jar'
+
+declare ecmcorePOMURI='/usr/share/REC2/flash/apache-tomcat-8.5.11/webapps/ecm-core/META-INF/maven/eu.els.sie.flash/flash-ecm-core-rest/pom.properties'
+declare ecmuserPOMURI='/usr/share/REC2/flash/apache-tomcat-8.5.11/webapps/ROOT/META-INF/maven/eu.els.sie.xmlfirst.ecm.user/flash-ecm-user/pom.properties'
+declare adminPOMURI='/usr/share/REC2/flash/apache-tomcat-8.5.11/webapps/xfadmin/META-INF/maven/eu.els.sie.xmlfirst.admin/flash-admin/pom.properties'
+
+declare SOLRSTARTCMD='/usr/share/REC2/flash/solr/solr-5.5.2/bin/solr -s "/usr/share/REC2/flash/solr/flashHome" -p 8983'
+declare solrappSTARTCMD='/usr/share/REC2/flash/solr/solr-5.5.2/bin/solr -s "/usr/share/REC2/flash/solr/flashHome" -p 8983'
+declare tomcatSTARTCMD=/usr/share/REC2/flash/apache-tomcat-8.5.11/bin/startup.sh
+declare ecmcoreSTARTCMD=/usr/share/REC2/flash/apache-tomcat-8.5.11/bin/startup.sh
+declare ecmuserSTARTCMD=/usr/share/REC2/flash/apache-tomcat-8.5.11/bin/startup.sh
+declare adminSTARTCMD=/usr/share/REC2/flash/apache-tomcat-8.5.11/bin/startup.sh
+declare ermSTARTCMD=/usr/share/REC2/flash/erm/start-erm.sh
+declare asyncSTARTCMD=/usr/share/REC2/flash/async/start-async.sh

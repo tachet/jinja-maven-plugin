@@ -1,0 +1,67 @@
+# Mongo db config
+MONGODB_DATABASE: int-mnt1-ecm
+
+# Database config
+DB_NAME: int-mnt1-ecm
+DB_INITIAL_SIZE: 40
+DB_MAX_ACTIVE: 100
+DB_MIN_IDLE: 10
+DB_MAX_IDLE: 100
+
+# Xml export
+EXPORT_CONFIG_PATH: /var/flash-mnt1/export
+EXPORTED_XML_PATH:  /var/flash-mnt1/xml
+
+# Xslt config
+XSLT_TRANSFORMATION_LOG_PATH: /var/flash-mnt1/generateXML
+
+# Search interfacte template config
+DEFAULT_TIR_PAGINATION_LIMIT: 20
+
+#PUBLISH / PROOF
+PUBLISH_API_URL: http://10.16.14.42:8181/xd-prio-integ/api/treatExecutionOrder
+PUBLISH_USER: svc-els-xmlfirstad01
+PUBLISH_PWD: 4Su9xNa3
+PROOF_API_URL: http://10.16.14.42:8181/xd-prio-integ/api/treatExecutionOrder
+PROOF_USER: svc-els-xmlfirstad01
+PROOF_PWD: 4Su9xNa3
+PUBLISH_PROOF_ENV: integ
+# Max size for each file of metadata MEDIA by MB
+MEDIA_METADATA_MAX_SIZE: 600
+
+#Editor
+EDITOR_CONFIG_DIRECTORY: /usr/share/INTEG/flash-mnt1/conf/editor/
+EDITOR_SVG_SERVER_AUTO_DURATION: 30000000
+EDITOR_SVG_CLIENT_AUTO_DURATION: 10000
+PROLEXIS_API_PREFIX: api/prolexisws
+
+#Media manager
+MEDIA_MINIATURE_HEIGHT: 100
+MEDIA_MINIATURE_WIDTH: 100
+
+# Graylog config
+GRAYLOG_FACILITY: EcmCoreMnt1
+
+# Log config
+LOG_PATH: /var/log/xmlfirst/integration/flash-mnt1
+
+
+#security properties
+SECURITY_SECRET: db2a2634cbae7c01ea2d22797deb11da
+
+
+#validation
+VALIDATION_TARGETS_NUMBER_LIMIT: 20
+
+# Swagger config
+SWAGGER_TOKEN_HEADER: true
+
+# Monitoring config
+MONITORING_DEBUG: true
+MONITORING_SCORE: true
+
+# Async config
+ASYNC_THREAD_POOL_SIZE: 5
+
+# Export config
+EXPORT_PATH: /var/flash-mnt1/reports

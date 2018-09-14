@@ -1,0 +1,24 @@
+# Database config
+DB_SERVER_HOST: 10.16.14.9
+DB_NAME: xfadmin
+DB_INITIAL_SIZE: 50
+DB_MAX_ACTIVE: 200
+DB_MAX_IDLE: 55
+DB_MIN_IDLE: 50
+
+# Log config
+LOG_PATH: /var/log/xmlfirst/recette
+LOG_MAX_FILE_SIZE: 80MB
+LOG_MAX_HISTORY: 2
+LOG_TOTAL_SIZE_CAP: 1000MB
+
+# Graylog config
+GRAYLOG_FACILITY: AdminRecette1
+GRAYLOG_SERVER_PORT: 12210
+
+# Security config
+SECURITY_SECRET: db2a2634cbae7c01ea2d22797deb11eb
+SECURITY_TOKEN_VALIDITY_SEC: 3600
+
+# export config 
+EXPORT_CONFIG_PATH: /var/flash/export

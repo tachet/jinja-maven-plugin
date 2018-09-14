@@ -1,0 +1,80 @@
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#-----------------------------------------------------------------------
+CA,Cours d'appel,Cour d'appel
+CAA,Cours administratives d'appel,Cour administrative d'appel
+CE,Conseil d'état
+CGI,Code général des impôts
+LPF,Livre des procédures fiscales
+C.,Code
+D.,Decret
+CPC,Code de procédure civile
+NCPC,Nouveau code de procédure civile
+CPP,Code de procédure pénale
+CPI,Code de la propriété industrielle
+CPINDUS,Code de la propriété industrielle
+CGPPP,Code général de la propriété des personnes publiques
+CSP,Code de la santé publique
+CSI,Code de la sécurité intérieure
+CSS,Code de la sécurité sociale
+Cons. const.,Conseil constitutionnel
+PCG,Plan comptable général
+ANSA,Association nationale des sociétés par actions
+BOI,Bulletin officiel des impôts
+BOE,Bulletin officiel de l'enregistrement
+BOD,Bulletin officiel des Douanes
+BOCC,Bulletin officiel des conventions collectives
+BOEN,Bulletin officiel de l'éducation nationale
+Bopi,Bulletin officiel de la propriété industrielle
+BOSP,Bulletin officiel des services des prix
+BOSS,Bulletin officiel du ministère chargé de la solidarité nationale et de la santé
+BOMT,Bulletin officiel du ministère du travail
+RICP,Règlement intérieur des caisses primaires
+RIN,Règlement intérieur national de la profession d'avocat
+RP,Règlements particuliers
+RPTCA,Règlement particulier des taxes sur le chiffre d'affaires
+RGD,Règlementation générale des douanes
+RPFCH,Règlement particulier Les Franchises douanières
+RPV,Règlement particulier La Valeur en douane
+CEE,Communauté économique européenne
+TA,Tribunal administratif
+TASS,Tribunal des affaires de la sécurité sociale
+TGI,Tribunal de grande instance
+TI,Tribunal d'instance
+T. confl.,Tribunal des conflits
+Trib. UE,Tribunal de l'Union européenne
+CJUE,Cour de justice de l'union européenne
+TPICE,Tribunal des communautés européennes
+CEDH,Cour européenne des droits de l'homme
+TFPUE,Tribunal de la Fonction publique de l'Union européenne
+AELE,association européenne de libre-échange
+CCI,Chambre de commerce internationale
+Cirdi,Centre international de règlement des différends relatifs aux investissements
+CAFS,Code de l'action sociale et des familles
+CCH,Code de la construction et de l'habitation
+CGCT,Code général des collectivités territoriales
+CFAS,Code de la famille et de l'aide sociale
+Cass.,Cour de cassation,Cassation
+Conv.,convention
+nat.,nationale
+tech.,technique
+Comm.,Commission,Commerce,Commercial,Commerciale
+aff.,affaire
+soc.,sociale
+Circ.,Circulaires
+trav.,travail
+compt.,comptable
+part.,particulier
+Conv.,Convention
+coll.,collective
+Bull.,Bulletin

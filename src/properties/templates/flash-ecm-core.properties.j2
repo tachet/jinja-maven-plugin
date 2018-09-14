@@ -1,0 +1,193 @@
+# Spring boot global config
+sie.ecm.core.spring.profiles.active: prod
+
+# Spring boot datasource mongo config
+sie.ecm.core.data.mongo.uri: mongodb://{{ MONGODB_SERVER_URL }}
+sie.ecm.core.data.mongo.database: {{ MONGODB_DATABASE }}
+
+# Spring boot datasource Solr config. For SolR Cloud please use zkhost list (separted by a ,) only
+{% if IS_SHARDED_SOLR %}
+sie.ecm.core.data.solr.zkhost: http://{{ ZOOK_SERVER_URL }}
+sie.ecm.core.data.solr.host:
+{% else %}
+sie.ecm.core.data.solr.host: http://{{ SOLR_SERVER_URL}}/solr
+sie.ecm.core.data.solr.zkhost:
+{% endif %}
+sie.ecm.core.data.solr.core: {{ SOLR_CORE }}
+
+# Spring boot datasource config
+sie.ecm.core.datasource.driver-class-name: org.mariadb.jdbc.Driver
+sie.ecm.core.datasource.url: jdbc:mariadb://{{ DB_SERVER_HOST }}:{{ DB_SERVER_PORT }}/{{ DB_NAME }}
+sie.ecm.core.datasource.name: {{ DB_NAME }}
+sie.ecm.core.datasource.username: {{ DB_USER }}
+sie.ecm.core.datasource.password: {{ DB_PWD }}
+sie.ecm.core.datasource.xa.data-source-class-name: org.mariadb.jdbc.MySQLDataSource
+sie.ecm.core.datasource.test-while-idle=true
+sie.ecm.core.datasource.validationQuery=SELECT 1
+sie.ecm.core.datasource.initial-size: {{ DB_INITIAL_SIZE }}
+sie.ecm.core.datasource.max-active: {{ DB_MAX_ACTIVE }}
+sie.ecm.core.datasource.min-idle: {{ DB_MIN_IDLE }}
+sie.ecm.core.datasource.max-idle: {{ DB_MAX_IDLE }}
+
+# Spring boot jpa config
+sie.ecm.core.jpa.database-platform: org.hibernate.dialect.MySQLInnoDBDialect
+sie.ecm.core.jpa.database: MYSQL
+sie.ecm.core.jpa.show_sql: true
+sie.ecm.core.jpa.properties.hibernate.cache.use_second_level_cache: false
+sie.ecm.core.jpa.properties.hibernate.cache.use_query_cache: false
+sie.ecm.core.jpa.properties.hibernate.generate_statistics: false
+sie.ecm.core.jpa.properties.hibernate.event.merge.entity_copy_observer: allow
+sie.ecm.core.jpa.properties.hibernate.format_sql: false
+sie.ecm.core.jpa.properties.hibernate.use_sql_comments: false
+
+# Spring boot mail config
+sie.ecm.core.spring.mail.host: {{ MAIL_SERVER_HOST }}
+sie.ecm.core.spring.mail.port: {{ MAIL_SERVER_PORT }}
+sie.ecm.core.spring.mail.username: {{ MAIL_USER }}
+sie.ecm.core.spring.mail.password: {{ MAIL_PWD }}
+
+# Flyway config
+sie.ecm.core.flyway.enabled: true
+sie.ecm.core.flyway.baseline-on-migrate=true
+sie.ecm.core.flyway.validate-on-migrate=false
+sie.ecm.core.flyway.locations=db/migration
+sie.ecm.core.flyway.out-of-order=true
+
+# Spring boot rabbitmq config
+sie.ecm.core.spring.rabbitmq.host: {{ RABBIT_MQ_SERVER_HOST }}
+sie.ecm.core.spring.rabbitmq.port: {{ RABBIT_MQ_SERVER_PORT }}
+sie.ecm.core.spring.rabbitmq.user: {{ RABBIT_MQ_USER }}
+sie.ecm.core.spring.rabbitmq.password: {{ RABBIT_MQ_PWD }}
+
+
+# Spring boot multipart config in MB
+sie.ecm.core.multipart.maxFileSize: {{ MULTIPART_MAX_FILE_SIZE }}
+sie.ecm.core.multipart.maxRequestSize: {{ MULTIPART_MAX_REQUEST_SIZE }}
+
+# ECM-Core specific props
+sie.ecm.core.ldap.url: ldap://{{ LDAP_SERVER_HOST }}:{{ LDAP_SERVER_PORT }}
+sie.ecm.core.ldap.base: dc=eu,dc=els,dc=local
+sie.ecm.core.ldap.user: {{ LDAP_USER }}
+sie.ecm.core.ldap.password: {{ LDAP_PWD }}
+sie.ecm.core.ldap.enabled: {{ LDAP_ENABLED }}
+sie.ecm.core.exportConfigurationPath: {{ EXPORT_CONFIG_PATH }}
+sie.ecm.core.xmlPaths.exportedXmlPath: {{ EXPORTED_XML_PATH }}
+sie.ecm.core.xmlImport.dateFormat: yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
+sie.ecm.core.xmlImport.xsdDateFormat: yyyy-MM-dd'T'HH:mm:ss'Z'
+sie.ecm.core.xmlImport.defaultCreatorLogin: {{ XML_IMPORT_DEFAULT_CREATOR_LOGIN }}
+sie.ecm.core.refNamesList: {{ REF_NAME_LIST }}
+sie.ecm.core.xsltTransformation.xslLogPath: file:{{ XSLT_TRANSFORMATION_LOG_PATH }}
+sie.ecm.core.tir.pagination.limit: {{ DEFAULT_TIR_PAGINATION_LIMIT }}
+sie.ecm.core.export.exportPath: {{ EXPORT_PATH }}
+#PUBLISH / PROOF
+sie.ecm.core.publish.url: {{ PUBLISH_API_URL }}
+sie.ecm.core.publish.user: {{ PUBLISH_USER }}
+sie.ecm.core.publish.password: {{ PUBLISH_PWD }}
+sie.ecm.core.proof.url: {{ PROOF_API_URL }}
+sie.ecm.core.proof.user: {{ PROOF_USER }}
+sie.ecm.core.proof.password: {{ PROOF_PWD }}
+sie.ecm.core.environnement: {{ PUBLISH_PROOF_ENV }}
+
+#XSLT TRANSFORMATION
+sie.ecm.core.xsltTransformation.debug: false
+
+# Max size for each file of metadata MEDIA by MB
+sie.ecm.core.mediaMetadata.maxSize: {{ MEDIA_METADATA_MAX_SIZE }}
+
+#ASYNC
+sie.ecm.core.async.enabled: {{ ASYNC_ENABLED }}
+sie.ecm.core.async.appId: ecm-core
+sie.ecm.core.async.suffixEnv: -{{ENV}}.queue
+sie.ecm.core.async.solrQueue: solr
+sie.ecm.core.async.bulkOperationQueue: bulk-operation
+sie.ecm.core.async.notificationReceiveQueue: notification-treatment
+sie.ecm.core.async.notificationSendQueue: notification-push
+sie.ecm.core.async.threadPoolSize: {{ ASYNC_THREAD_POOL_SIZE }}
+sie.ecm.core.async.timeWaiting: {{ ASYNC_TIME_WAITING }}
+sie.ecm.core.async.cachePreviewQueue: cache-preview
+sie.ecm.core.async.exportMediaQueue: export-media
+sie.ecm.core.async.xmlExportQueue: export-xml
+sie.ecm.core.async.xmlPublishQueue: publish-xml
+sie.ecm.core.async.updateTreeQueue: tree-update
+
+#Editor
+sie.ecm.core.spring.editor.configuration_directory: {{ EDITOR_CONFIG_DIRECTORY }}
+sie.ecm.core.spring.editor.svgServerAutoDuration: {{ EDITOR_SVG_SERVER_AUTO_DURATION }}
+sie.ecm.core.spring.editor.svgClientAutoDuration: {{ EDITOR_SVG_CLIENT_AUTO_DURATION }}
+sie.ecm.core.spring.editor.prolexisWsUrl: {{ PROLEXIS_API_PREFIX }}
+
+#ERM
+sie.ecm.core.erm.url: http://{{ ERM_APP_SERVER_HOST }}:{{ ERM_APP_SERVER_PORT }}/api
+sie.ecm.core.feign.timeout: {{ FEIGN_CALL_TIMEOUT }}
+
+#Media manager
+sie.ecm.core.MediaManager.miniatureHeight: {{ MEDIA_MINIATURE_HEIGHT }}
+sie.ecm.core.MediaManager.miniatureWidth: {{ MEDIA_MINIATURE_WIDTH }}
+
+# if true, Spring Boot will run schema.sql and data.sql on startup time
+# To use only in integration env
+# source: http://docs.spring.io/spring-boot/docs/current/reference/html/howto-database-initialization.html
+sie.ecm.core.datasource.initialize: false
+
+# Configuration des logs
+sie.ecm.core.logging.config: {{ LOG_CONFIG }}
+sie.ecm.core.logging.path: {{ LOG_PATH }}
+sie.ecm.core.logging.level: {{ LOG_LEVEL }}
+
+# STDOUT,GRAYLOG,ASYNC
+sie.ecm.core.logging.appenders: {{ LOG_APPENDERS }}
+sie.ecm.core.logging.maxFileSize: {{ LOG_MAX_FILE_SIZE }}
+# Le nombre de jour max pour garder les logs
+sie.ecm.core.logging.maxHistory: {{ LOG_MAX_HISTORY }}
+# La taille max de tous les fichiers logs pas encore supprimés
+sie.ecm.core.logging.totalSizeCap: {{ LOG_TOTAL_SIZE_CAP }}
+
+# Graylog config
+sie.ecm.core.logging.grayLog.host: udp:{{ GRAYLOG_SERVER_HOST}}
+sie.ecm.core.logging.grayLog.port: {{ GRAYLOG_SERVER_PORT}}
+sie.ecm.core.logging.grayLog.gelf.version: 1.1
+sie.ecm.core.logging.grayLog.maximumMessageSize: {{ GRAYLOG_MAXIMUM_MESSAGE_SIZE }}
+sie.ecm.core.logging.grayLog.timestampPattern: "yyyy-MM-dd HH:mm:ss,SSSS"
+sie.ecm.core.logging.grayLog.facility: {{ GRAYLOG_FACILITY }}
+sie.ecm.core.logging.grayLog.extractStackTrace: true
+sie.ecm.core.logging.grayLog.filterStackTrace: false
+
+#cache
+sie.ecm.core.cache.type: HAZELCAST
+sie.ecm.core.cache.user: {{ HAZELCAST_GROUP_NAME }}
+sie.ecm.core.cache.password: {{ HAZELCAST_GROUP_PWD }}
+sie.ecm.core.cache.url: {{ HAZELCAST_SERVER_HOST }}:{{ HAZELCAST_SERVER_PORT }}
+sie.ecm.core.cache.databaseName: {{ HAZELCAST_DATABASE }}
+sie.ecm.core.cache.execTimeoutSec: {{ HAZELCAST_EXEC_TIMEOUT_SEC }}
+
+
+#security properties
+sie.ecm.core.security.timeToLiveInDays: {{ SECURITY_TIME_TO_LIVE_IN_DAYS }}
+sie.ecm.core.security.secret: {{ SECURITY_SECRET }}
+sie.ecm.core.security.tokenValidityInSeconds: {{ SECURITY_TOKEN_VALIDITY_SEC }}
+sie.ecm.core.security.swaggerTokenHeader: {{ SWAGGER_TOKEN_HEADER }}
+
+# Ecm monitoring
+sie.ecm.core.monitoring.asyncAppHealthUrl: http://{{ASYNC_APP_SERVER_HOST}}:{{ASYNC_APP_SERVER_PORT}}/monitoring
+sie.ecm.core.monitoring.cacheAppHealthUrl: http://{{CACHE_APP_SERVER_HOST}}:{{CACHE_APP_SERVER_PORT}}/{{CACHE_APP_SERVER_CONTEXT_PATH}}/monitoring
+sie.ecm.core.monitoring.ermAppHealthUrl: http://{{ERM_APP_SERVER_HOST}}:{{ERM_APP_SERVER_PORT}}/monitoring
+sie.ecm.core.monitoring.coreAppHealthUrl: http://{{CORE_APP_SERVER_HOST}}:{{CORE_APP_SERVER_PORT}}/{{CORE_APP_SERVER_CONTEXT_PATH}}/monitoring
+sie.ecm.core.monitoring.batchAppHealthUrl: http://{{BATCH_APP_SERVER_HOST}}:{{BATCH_APP_SERVER_PORT}}/monitoring
+sie.ecm.core.monitoring.debug: {{ MONITORING_DEBUG  }}
+#Indicates whether we should include score
+sie.ecm.core.monitoring.score: {{ MONITORING_SCORE  }}
+
+# Bulk operations
+sie.ecm.core.bulkOperation.rabbitRestApiUrl: {{ RABBIT_MQ_REST_API_URL }}
+sie.ecm.core.bulkOperation.rabbitNbMessagesLimit: {{ RABBIT_MQ_NB_MESSAGES_LIMIT }}
+
+# Notifications
+# Notifications processing chunk size
+sie.ecm.core.notification.chunkSize: {{ NOTIFICATION_TREATEMENT_CHUNK_SIZE }}
+
+#validation
+sie.ecm.core.validation.targetNumberLimit: {{ VALIDATION_TARGETS_NUMBER_LIMIT }}
+
+#Pagination mongo
+sie.ecm.core.mongo.pageUtils.limit: {{ MONGODB_PAGE_SIZE }}
+sie.ecm.core.mongo.pageUtils.removeChunkSize: {{ MONGODB_REMOVE_CHUNKS_SIZE }}

@@ -1,0 +1,44 @@
+{
+  "type": "FULL",			 
+  "baseURL": "editor/js/lib/tinymce/",
+  "entity_encoding": "raw",
+  "convert_urls": false,
+  "selector": "textarea",
+  "language": "fr_FR",
+  "plugins": "ms_init noneditable ms_id ms_contextmenu ms_fr_typorules fullscreen searchreplace ms_charmap lists ms_advlist visualchars_ms guillemets nbwords_ms code ms_errors visualblocks_ms ms_structure table table_ms ice tma_annotate paste DiagPlWs ms_notes ms_links ms_page ms_titles ms_elements ms_word_paste colorpicker localautosave ms_selection ms_author ms_shortcuts ms_filemanager ms_hr ms_import_html ms_macros ms_last",
+  "menubar": false,
+  "toolbar1": "cut copy searchreplace | bold italic superscript subscript underline guillemets | bullist numlist outdent indent alignleft aligncenter alignright alignjustify | undo redo | styles_titres | macros",
+  "toolbar2": "ms_link_qualify ms_link_new ms_link_intraouvrage ms_link_interne ms_link_qualify_all ms_link_newlink_all ms_link_gestion",
+  "toolbar3": "table | notes renvoi_notes | ms_charmap | ms_hr | paste_word paste_pdf import_html | import_author | ms_filemanager",
+  "toolbar4": "visualblocks fusionelement | visualchars | code | page_aff",
+  "toolbar5": "tma_annotate tma_annotatedelete tma_annotatehide | iceacceptall icerejectall ice_prev ice_next ice_togglechanges | DiagPlWs",
+  "theme": "els",
+  "table_style_by_css":true,
+  "valid_elements" : ["@[id|type|class|style|title|dir<ltr?rtl|lang|xml::lang]",
+    "a[rel|rev|charset|hreflang|tabindex|accesskey|type|name|href|target|title|class],strong/b,em/i,strike/s,u",
+    "#p[style],-ol[type|compact],-ul[type|compact],-li,br,img[longdesc|usemap|src|border|alt=|title|hspace|vspace|width|height|align],-sub,-sup",
+    "-blockquote,-table[border=0|cellspacing|cellpadding|width|frame|rules|height|align|summary|bgcolor|background|bordercolor],-tr[rowspan|width|height|align|valign|bgcolor|background|bordercolor],tbody,thead,tfoot",
+    "#td[colspan|rowspan|width|height|align|valign|bgcolor|background|bordercolor|scope],#th[colspan|rowspan|width|height|align|valign|scope],caption,div",
+    "span,code,pre,address,h1,h2,h3,h4,h5,h6,hr[size|noshade],font[face|size|color],dd,dl,dt,cite,abbr,acronym,del[datetime|cite],ins[datetime|cite]",
+    "object[classid|width|height|codebase|*],param[name|value|_value],embed[type|width|height|src|*],map[name],area[shape|coords|href|alt|target],bdo",
+    "button,col[align|char|charoff|span|valign|width],colgroup[align|char|charoff|span|valign|width],dfn,fieldset,form[action|accept|accept-charset|enctype|method]",
+    "input[accept|alt|checked|disabled|maxlength|name|readonly|size|src|type|value]",
+    "kbd,label[for],legend,noscript,optgroup[label|disabled],option[disabled|label|selected|value]",
+    "q[cite],samp,select[disabled|multiple|name|size],small",
+    "textarea[cols|rows|disabled|name|readonly],tt,var,big,figure,figcaption"],
+  "verify_html": false,
+  "custom_elements":"del,ins",
+  "table_default_styles": {
+    "width": "100%"
+  },
+  "formats": {
+    "underline": {"inline": "u"},
+ 
+	
+ 
+    "strikethrough": {"inline": "s"}
+ 
+  },
+  "las_nVersions": 10,
+  "paste_retain_style_properties": "mso-border-left-alt"
+}

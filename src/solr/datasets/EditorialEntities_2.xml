@@ -1,0 +1,867 @@
+<!-- Licensed to the Apache Software Foundation (ASF) under one or more contributor 
+	license agreements. See the NOTICE file distributed with this work for additional 
+	information regarding copyright ownership. The ASF licenses this file to 
+	You under the Apache License, Version 2.0 (the "License"); you may not use 
+	this file except in compliance with the License. You may obtain a copy of 
+	the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required 
+	by applicable law or agreed to in writing, software distributed under the 
+	License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS 
+	OF ANY KIND, either express or implied. See the License for the specific 
+	language governing permissions and limitations under the License. -->
+
+<add>
+	<doc>
+		<!-- Infos de la EE -->
+		<field name="id">777</field>
+		<field name="EE_ID">581ca0a5e25dc32a29fa67a8</field>
+		<field name="EE_DOC_TYPE">Code_43</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME">EE11111</field>
+		<field name="ALPHANUMERIC_MULTI_THEMES">TVA</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Abstract resumé</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation AFD0145</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">1288</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre1</field>
+		<field name="ALPHANUMERIC_MULTI_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	<!-- **** Les parents **** -->
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">2</field>
+		<field name="EE_ID">57c431e8569772869e444769</field>
+		<field name="EE_DOC_TYPE">Code_43</field>
+		<field name="EE_LINK_TYPE">EE_PARENT</field>
+		<field name="NAME">EE5555</field>
+		<field name="NUMERIC_INT_MULTI_ANNEE_PUB">2015</field>
+		<field name="NUMERIC_INT_MULTI_NUMERO">11</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0145</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">3</field>
+		<field name="EE_ID">57c431e8569772869e444790</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_PARENT</field>
+		<field name="NAME">EE6666</field>
+		<field name="NUMERIC_INT_MULTI_ANNEE_PUB">2015</field>
+		<field name="NUMERIC_INT_MULTI_NUMERO">11</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">582335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">702335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">712335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">722335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">732335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">742335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">752335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">762335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">772335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">782335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">792335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">802335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">812335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">822335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">832335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">842335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">852335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">862335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">872335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">882335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">892335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">902335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">912335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">922335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">932335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">942335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">952335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">962335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">972335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">982335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+	<doc>
+		<!-- Infos parent EE5 -->
+		<field name="id">992335cfd91b356a97d5daac</field>
+		<field name="EE_ID">582335cfd91b356a97d5daac</field>
+		<field name="EE_DOC_TYPE">Code_60</field>
+		<field name="EE_LINK_TYPE">EE_IT_SELF</field>
+		<field name="NAME"> </field>
+		<field name="LIST_MULTI_NIVEAU_EXPERTISE">Généraliste</field>
+		<field name="LIST_MULTI_METIER">Avocat</field>
+		<field name="ALPHANUMERIC_MULTI_MATIERES">Affaires</field>
+		<field name="DATE_MULTI_DATEPUBLICATION">2016-08-31T12:00:00.000Z</field>
+		<field name="HTML_MULTI_HTML1">html1</field>
+		<field name="ALPHANUMERIC_MULTI_BAFPRESENTATION">ID540</field>
+		<field name="BOOLEAN_MULTI_ACTIF">1</field>
+		<field name="ALPHANUMERIC_MULTI_ABSTRACT">Ceci est le resumé de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+		<field name="RELATIONSHIP_MULTI_UICOMREFDOC">Relation LMZ0245</field>
+		<field name="NUMERIC_INT_MULTI_BAFNUMORDRE">12548</field>
+		<field name="ALPHANUMERIC_MULTI_PRODUITCX">titre2</field>
+		<field name="EE_CONTENT">Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici.Ceci est le texte de l'entité éditoriale qui n'est
+			renseigné qu'ici</field>
+	</doc>
+	
+</add>
+

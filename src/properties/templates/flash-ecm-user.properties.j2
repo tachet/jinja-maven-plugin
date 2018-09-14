@@ -1,0 +1,71 @@
+
+# Spring boot global config
+sie.ecm.user.spring.profiles.active: prod
+
+sie.ecm.user.spring.http.multipart.maxRequestSize: {{ MULTIPART_MAX_REQUEST_SIZE }}
+sie.ecm.user.spring.http.multipart.maxFileSize: {{ MULTIPART_MAX_FILE_SIZE }}
+
+# Ecm User specific configuration
+sie.ecm.user.ecm-core.url: http://{{CORE_APP_SERVER_HOST}}:{{CORE_APP_SERVER_PORT}}
+sie.ecm.user.ecm-core.webSocketUrl: {{WEB_SOCKET_URL}}
+sie.ecm.user.ecm-core.name: {{ CORE_APP_SERVER_CONTEXT_PATH }}
+
+# Configuration des logs
+sie.ecm.user.logging.config: {{ LOG_CONFIG }}
+sie.ecm.user.logging.path: {{ LOG_PATH }}
+sie.ecm.user.logging.level: {{ LOG_LEVEL }}
+
+# Values: ASYNC, GRAYLOG,STDOUT
+sie.ecm.user.logging.appenders: {{ LOG_APPENDERS }}
+sie.ecm.user.logging.maxFileSize: {{ LOG_MAX_FILE_SIZE }}
+# Le nombre de jour max pour garder les logs
+sie.ecm.user.logging.maxHistory: {{ LOG_MAX_HISTORY }}
+# La taille max de tous les fichiers logs pas encore supprimés
+sie.ecm.user.logging.totalSizeCap: {{ LOG_TOTAL_SIZE_CAP }}
+
+# Graylog config
+sie.ecm.user.logging.grayLog.host: udp:{{ GRAYLOG_SERVER_HOST}}
+sie.ecm.user.logging.grayLog.port: {{ GRAYLOG_SERVER_PORT }}
+sie.ecm.user.logging.grayLog.gelf.version: 1.1
+sie.ecm.user.logging.grayLog.maximumMessageSize: {{ GRAYLOG_MAXIMUM_MESSAGE_SIZE }}
+sie.ecm.user.logging.grayLog.timestampPattern: "yyyy-MM-dd HH:mm:ss,SSSS"
+sie.ecm.user.logging.grayLog.facility: {{ GRAYLOG_FACILITY }}
+sie.ecm.user.logging.grayLog.extractStackTrace: true
+sie.ecm.user.logging.grayLog.filterStackTrace: false
+
+# User Session
+sie.ecm.user.session.timeout: {{ SESSION_TIMEOUT }}
+
+#zuul
+sie.ecm.user.zuul.connect-timeout-millis: {{ ZUUL_CONNECT_TIMEOUT_MILLIS }}
+sie.ecm.user.zuul.connect-socket-timeout-millis: {{ ZUUL_CONNECT_SOCKET_TIMEOUT_MILLIS }}
+
+#Notifications
+# WebSocket disabled.
+sie.ecm.user.enableNotification: false
+
+#SVG config
+sie.ecm.user.svg.server.auto.duration: {{ EDITOR_SVG_SERVER_AUTO_DURATION }}
+sie.ecm.user.svg.client.auto.duration: {{ EDITOR_SVG_CLIENT_AUTO_DURATION }}
+
+# Jhipster specific config
+#sie.ecm.user.jhipster.http.cache.timeToLiveInDays: {{ SECURITY_TIME_TO_LIVE_IN_DAYS }}
+
+#Libellé de l'environnement cible ( Recette1, Recette2, Recette3, Preprod, etc.)
+sie.ecm.user.environnement: {{ ENV }}
+sie.ecm.user.version: {{ ECM_VERSION }}
+
+# Prolexis ws url
+sie.ecm.user.prolexisws.url: {{ PROLEXIS_WS_URL }}
+
+
+#rabbitmq
+sie.ecm.user.spring.rabbit.host: {{ RABBIT_MQ_SERVER_HOST }}
+sie.ecm.user.spring.rabbit.port: {{ RABBIT_MQ_SERVER_PORT }}
+sie.ecm.user.spring.rabbit.username: {{ RABBIT_MQ_USER }}
+sie.ecm.user.spring.rabbit.password: {{ RABBIT_MQ_PWD }}
+
+#Queues
+sie.ecm.user.async.notificationPushQueue: notification-push-{{ENV}}.queue
+sie.ecm.user.async.notificationLogQueue: notification-push-log-{{ENV}}.queue
+sie.ecm.user.async.notificationErrorQueue: notification-push-error-{{ENV}}.queue

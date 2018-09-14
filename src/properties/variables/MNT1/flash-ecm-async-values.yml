@@ -1,0 +1,45 @@
+# Mongo db config
+MONGODB_DATABASE: int-mnt1-ecm
+
+# Database config
+DB_NAME: int-mnt1-ecm
+DB_INITIAL_SIZE: 10
+DB_MAX_ACTIVE: 50
+DB_MIN_IDLE: 10
+DB_MAX_IDLE: 50
+
+# Log config
+LOG_PATH: /var/log/xmlfirst/integration/flash-mnt1
+
+# Graylog config
+GRAYLOG_FACILITY: AsyncMnt1
+
+#  Tomcat config
+TOMCAT_ACCESS_LOG_DIRECTORY: /var/log/xmlfirst/integration/flash-mnt1/async/tomcat
+
+# Xslt config
+XSLT_TRANSFORMATION_LOG_PATH: /var/flash-mnt1/generateXML
+
+#POST-SAVE specific properties
+CONCURRENT_CONSUMERS: 5
+
+#MEDIA
+EDITOR_MEDIA_COLLECTION: editor.files
+METADATA_MEDIA_COLLECTION: media.files
+TARGET_DIRECTORY_PATH: /usr/share/INTEG/flash-mnt1/async/media-export
+
+# Xml publish config
+XML_PUBLISH_PATH: /flash-mnt1
+XML_PUBLISH_CURRENT_COLLECTION: INTEG-CURRENT
+XML_PUBLISH_VALID_COLLECTION: INTEG-VALID
+XML_PUBLISH_MEDIA_COLLECTION: INTEG-MEDIA
+
+#XML files upload
+XML_UPLOAD_SOURCE_DIRECTORY_PATH: /usr/share/INTEG/flash-mnt1/async/upload-xml/to-process
+XML_UPLOAD_TARGET_DIRECTORY_PATH: /usr/share/INTEG/flash-mnt1/async/upload-xml/done
+
+# xml Export config
+XML_EXPORT_TARGET_DIRECTORY_PATH: /usr/share/INTEG/flash-mnt1/async/xml-export
+
+# Async config
+ASYNC_THREAD_POOL_SIZE: 5

@@ -1,0 +1,19 @@
+# Database config
+DB_SERVER_HOST: localhost
+DB_NAME: admin_1_1
+DB_INITIAL_SIZE: 10
+DB_MAX_ACTIVE: 100
+DB_MIN_IDLE: 10
+DB_MAX_IDLE: 100
+
+# Log config
+LOG_PATH: target
+
+# Graylog config
+GRAYLOG_FACILITY: AdminRelease
+
+# Security config
+SECURITY_SECRET: db2a2634cbae7c01ea2d22797deb11eb
+
+# export config 
+EXPORT_CONFIG_PATH: "C:/temp/export"

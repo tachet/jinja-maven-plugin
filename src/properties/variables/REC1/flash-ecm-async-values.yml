@@ -1,0 +1,49 @@
+# Mongo db config
+MONGODB_DATABASE: recette1-ecm
+
+# Database config
+DB_NAME: ecm
+DB_INITIAL_SIZE: 10
+DB_MAX_ACTIVE: 100
+DB_MIN_IDLE: 10
+DB_MAX_IDLE: 100
+
+# Log config
+LOG_PATH: /var/log/xmlfirst/recette
+LOG_MAX_FILE_SIZE: 10MB
+LOG_MAX_HISTORY: 30
+LOG_TOTAL_SIZE_CAP: 50MB
+
+# Graylog config
+GRAYLOG_FACILITY: AsyncRecette1
+GRAYLOG_SERVER_PORT: 12212
+
+#  Tomcat config
+TOMCAT_ACCESS_LOG_DIRECTORY: /var/log/xmlfirst/recette/tomcat
+
+# Xslt config
+XSLT_TRANSFORMATION_LOG_PATH: /var/flash/generateXML
+
+#POST-SAVE specific properties
+CONCURRENT_CONSUMERS: 20
+
+#MEDIA
+EDITOR_MEDIA_COLLECTION: editor.files
+METADATA_MEDIA_COLLECTION: media.files
+TARGET_DIRECTORY_PATH: /usr/share/REC1/flash/async/media-export
+
+# Xml publish config
+XML_PUBLISH_PATH: /recette1
+XML_PUBLISH_CURRENT_COLLECTION: REC1-CURRENT
+XML_PUBLISH_VALID_COLLECTION: REC1-VALID
+XML_PUBLISH_MEDIA_COLLECTION: REC1-MEDIA
+
+#XML files upload
+XML_UPLOAD_SOURCE_DIRECTORY_PATH: /usr/share/REC1/flash/async/upload-xml/to-process
+XML_UPLOAD_TARGET_DIRECTORY_PATH: /usr/share/REC1/flash/async/upload-xml/done
+
+# xml Export config
+XML_EXPORT_TARGET_DIRECTORY_PATH: /usr/share/REC1/flash/async/xml-export
+
+# Async config
+ASYNC_THREAD_POOL_SIZE: 10
