@@ -7,7 +7,7 @@
 	<artifactId>flash-config</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Flash Ecm Config</name>
+	<name>Project Config</name>
 	<description>
 		Handle ecm config files.
 	</description>
