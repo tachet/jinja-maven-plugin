@@ -96,11 +96,8 @@
 								<id>assembly-config</id>
 								<configuration>
 									<descriptors>
-										<descriptor>src/assemblies/assembly-config-REC1.xml</descriptor>
-										<descriptor>src/assemblies/assembly-config-REC2.xml</descriptor>
-										<descriptor>src/assemblies/assembly-config-REC3.xml</descriptor>
-										<descriptor>src/assemblies/assembly-config-REC4.xml</descriptor>
-										<descriptor>src/assemblies/assembly-config-REC5.xml</descriptor>
+										<descriptor>src/assemblies/assembly-config-ENV1.xml</descriptor>
+										<descriptor>src/assemblies/assembly-config-ENV2.xml</descriptor>
 									</descriptors>
 								</configuration>
 							</execution>
@@ -120,40 +117,10 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>INTEG</id>
+			<id>ENV1</id>
 		</profile>
 		<profile>
-			<id>PROD</id>
-		</profile>
-		<profile>
-			<id>PPROD</id>
-		</profile>
-		<profile>
-			<id>DCOS</id>
-		</profile>
-		<profile>
-			<id>REC1</id>
-		</profile>
-		<profile>
-			<id>REC2</id>
-		</profile>
-		<profile>
-			<id>REC3</id>
-		</profile>
-		<profile>
-			<id>REC4</id>
-		</profile>
-		<profile>
-			<id>REC5</id>
-		</profile>
-		<profile>
-			<id>REC7</id>
-		</profile>
-		<profile>
-			<id>MNT1</id>
-		</profile>
-		<profile>
-			<id>MNT2</id>
+			<id>ENV2</id>
 		</profile>
 	</profiles>
 </project>
