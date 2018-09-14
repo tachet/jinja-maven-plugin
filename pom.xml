@@ -9,7 +9,7 @@
 	<packaging>pom</packaging>
 	<name>Project Config</name>
 	<description>
-		Handle ecm config files.
+		Handle  config files.
 	</description>
 	<properties>
 		<!-- Common values -->
